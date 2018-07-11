@@ -9,4 +9,14 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rng.Core\Rng.Core.csproj" />
+    <ProjectReference Include="..\Rng.Data\Rng.Data.csproj" />
+    <ProjectReference Include="..\Rng.Services\Rng.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.4.8.1\lib\netstandard1.1\Autofac.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

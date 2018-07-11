@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  web.rng:
-    image: ${DOCKER_REGISTRY}webrng
-    build:
-      context: .
-      dockerfile: Web.Rng\Dockerfile
