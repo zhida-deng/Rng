@@ -13,11 +13,7 @@ namespace Rng.Core.Infrastructure.DependencyManagement
         /// <param name="builder">Container builder</param>
         /// <param name="typeFinder">Type finder</param>
         /// <param name="config">Config</param> 配置以后再根据需求加上
-        void Register(ContainerBuilder builder, ITypeFinder typeFinder);
+        ContainerBuilder Register(ContainerBuilder builder);
 
-        /// <summary>
-        /// Gets order of this dependency registrar implementation
-        /// </summary>
-        int Order { get; }
     }
 }

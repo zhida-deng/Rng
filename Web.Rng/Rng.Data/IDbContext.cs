@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 
-namespace Nop.Data
+namespace Rng.Data
 {
     /// <summary>
     /// DB context

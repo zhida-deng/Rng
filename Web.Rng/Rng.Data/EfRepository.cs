@@ -1,5 +1,6 @@
 using Rng.Core;
 using Rng.Core.Data;
+using Rng.Data;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

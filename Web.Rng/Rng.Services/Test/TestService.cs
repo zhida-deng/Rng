@@ -39,11 +39,11 @@ namespace Rng.Services.Test
         /// </summary>
         /// <param name="affiliateId">Affiliate identifier</param>
         /// <returns>Affiliate</returns>
-        public virtual Rng.Core.Domain.Test GetAffiliateById(int id)
+        public virtual Rng.Core.Domain.Test GetById(int id)
         {
             if (id == 0)
                 return null;
-
+            return new Rng.Core.Domain.Test() { age = 1, Id = 1, name = "Dageeeee" };
             return _testRepository.GetById(id);
         }
 
